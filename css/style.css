@@ -1,12 +1,69 @@
-li{border-bottom:
-    color: red;
-
+body{
+    background-color:lightgray;
 }
 
-header{width: 90%;
-    height: 15%;
-    background-color: red;
-    padding-left: 10%;
+
+
+header{
+    
+    background-color: #728aa5;
     text-align: center;
+     
+}
+div{
+    display: block;`
+}
+nav{
+    background-color: #728aa5;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+li{
+    display: inline-block;
+    
 }
 
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn{
+    background-color: #728aa5;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: auto;
+    
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#section{
+    background-color: white;
+}
+
+footer{
+    clear:both;
+    font: 14px;
+    margin: 0 auto;
+    text-shadow: 1px 1px #fff;
+    width: 100%;
+}
+#gototop{
+    float:;
+    text-align: center;
+    cursor: auto;
+}
+#creds{
+    float: right;
+    text-align: right;
+    width: 75%;
+}
